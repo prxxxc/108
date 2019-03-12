@@ -14,13 +14,13 @@ taskTitle.style.padding = '10px';
 // taskTitle.style.display = 'none';
 // Change content
 taskTitle.textContent = 'Task List';
-taskTitle.textContent = 'My Tasks';
-taskTitle.textContent = '<span style="color:red">Task List</span>';
+taskTitle.innerText = 'My Tasks';
+taskTitle.innerHTML = '<span style="color:red">Task List</span>';
 // document.querySelector()
 // console.log(document.querySelector('#task-form div'));
 // console.log(document.querySelector('#task-form div').className);
 
-document.querySelector()
+document.querySelector('li')
 
 document.querySelector('li').style.color = 'red';
 document.querySelector('ul li').style.color = 'blue';
