@@ -29,3 +29,8 @@ document.querySelector('li:nth-child(3)').style.color = 'yellow';
 document.querySelector('li:nth-child(4)').textContent = 'Hello';
 document.querySelector('li:nth-child(odd)').style.background = '#ccc';
 document.querySelector('li:nth-child(even)').style.background = '#f4f4f4';
+
+let oddlist = document.querySelectorAll('li:nth-child(odd)');
+oddlist.forEach(function(list){
+    list.style.background = '#ccc';
+});
